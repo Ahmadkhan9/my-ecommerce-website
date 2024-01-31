@@ -7,7 +7,7 @@ const CategoriesContainer = ({categories}) => {
       return (
         <div className="categories-container">
           {categories.map(({id , title, imageUrl}) => {
-            return (<CategoryItem urlImage={imageUrl} id={id} title={title}/>)
+            return (<CategoryItem key={id} urlImage={imageUrl} title={title}/>)
           })}
         </div>
       )

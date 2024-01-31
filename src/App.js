@@ -2,7 +2,7 @@
 import CategoriesContainer from './Components/categories-container/categories-container.component'
 import CategoryItem from './Components/category-item/category-item.component'
 import './categories.style.scss'
-
+import './index.scss'
 const App = () => {
   const categories = [
     {
